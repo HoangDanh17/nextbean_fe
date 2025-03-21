@@ -1,0 +1,13 @@
+.import-btn,
+.add-btn,
+.edit-btn,
+.cancel-btn {
+    margin-right: 10px;
+}
+
+.edit-btn:disabled,
+.delete-btn:disabled {
+    background-color: #be7070; /* Màu nền khi disable */
+    color: #999999; /* Màu chữ khi disable */
+    pointer-events: none; /* Không cho phép sự kiện click */
+}

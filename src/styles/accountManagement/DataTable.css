@@ -1,0 +1,36 @@
+.custom-header {
+    background-color: white;
+    color: #000000;
+    font-weight: bolder;
+}
+
+.custom-cell {
+    color: #000000;
+}
+
+.custom-row .MuiDataGrid-row:nth-of-type(odd) {
+    background-color: #e0f3ff;
+    /* Màu nền cho hàng lẻ */
+}
+
+.custom-row .MuiDataGrid-row:nth-of-type(even) {
+    background-color: #ffffff;
+    /* Màu nền cho hàng chẵn */
+}
+
+.css-tgsonj {
+    background-color: #ffffff;
+    border-bottom: #000000;
+}
+
+/* Custom DataTable */
+.custom-pagination .MuiDataGrid-footerContainer {
+    background-color: #ffffff;
+    /* Màu nền cho pagination */
+    color: #333;
+    /* Màu chữ cho pagination */
+}
+
+.custom-row.custom-pagination {
+    background-color: #ffffff;
+}

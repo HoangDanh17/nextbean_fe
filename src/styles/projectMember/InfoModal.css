@@ -1,0 +1,18 @@
+.modal-detail-box {
+    width: 700px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    box-shadow: 24px;
+    padding: 32px;
+}
+
+.centered-avatar {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100px;
+    height: 100px; 
+}
